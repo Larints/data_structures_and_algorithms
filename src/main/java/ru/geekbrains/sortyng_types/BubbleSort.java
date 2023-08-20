@@ -18,7 +18,7 @@ public class BubbleSort {
         while (length != 0) {
             int max_index = 0;
             for (int i = 1; i < length; i++) {
-                if (array[i - 1] > array [i]) {
+                if (array[i - 1] > array[i]) {
                     int temp = array[i - 1];
                     array[i - 1] = array[i];
                     array[i] = temp;
